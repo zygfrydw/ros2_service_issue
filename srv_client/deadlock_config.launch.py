@@ -1,8 +1,6 @@
 from launch import LaunchDescription
 from launch_ros.actions import ComposableNodeContainer, Node
 from launch_ros.descriptions import ComposableNode
-import numpy as np
-
 
 def generate_launch_description():
     return LaunchDescription(
